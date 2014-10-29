@@ -28,7 +28,7 @@
         <div class="container">
 
             <!-- Navigation -->
-            <div class="navbar navbar-default">
+            <div class="navbar navbar-default navbar-fixed-top">
               <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
                       <span class="icon-bar"></span>
@@ -43,13 +43,29 @@
                       <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Website <b class="caret"></b></a>
                           <ul class="dropdown-menu">
-                              <li><a href="#Frontend">Front-End</a></li>
-                              <li><a href="#">Back-End</a></li>
+                              <li><a href="#Frontend" class="scroll"><strong>Front-End</strong></a></li>
+                              <li><a href="#CSSFrameworks" class="scroll">CSS Frameworks</a></li>
+                              <li><a href="#JSFrameworks" class="scroll">Javascript Frameworks</a></li>
+                              <li><a href="#JSUIFrameworks" class="scroll">Javascript UI Frameworks</a></li>
+                              <li><a href="#AnotherFrontendTools" class="scroll">Another Front-End Tools</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#Backend" class="scroll"><strong>Back-End</strong></a></li>
+                              <li><a href="#NodejsMicroFrameworks" class="scroll">Node.js - Micro Frameworks</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#PHPCMS" class="scroll">PHP - CMS</a></li>
+                              <li><a href="#PHPFrameworks" class="scroll">PHP - Frameworks</a></li>
+                              <li><a href="#PHPMicroFrameworks" class="scroll">PHP - Micro Frameworks</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#PythonFrameworks" class="scroll">Python - Frameworks</a></li>
+                              <li><a href="#PythonMicroFrameworks" class="scroll">Python - Micro Frameworks</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#RubyFrameworks" class="scroll">Ruby - Frameworks</a></li>
+                              <li><a href="#RubyMicroFrameworks" class="scroll">Ruby - Micro Frameworks</a></li>
                           </ul>
                       </li>
-                      <li><a href="#">iOS</a></li>
-                      <li><a href="#">Android</a></li>
-                      <li><a href="#">Windows Phone</a></li>
+                      <li><a href="#iOS" class="scroll">iOS</a></li>
+                      <li><a href="#Android" class="scroll">Android</a></li>
+                      <li><a href="#WP" class="scroll">Windows Phone</a></li>
                     </ul>
                 </div>
             </div>
@@ -75,7 +91,7 @@
             </div>
 
             <!-- CSS Frameworks -->
-            <div class="row">
+            <div class="row" id="CSSFrameworks">
                 <div class="col-lg-12">
                     <h4>CSS Frameworks</h4>
                 </div>
@@ -113,7 +129,7 @@
             <!-- End CSS Frameworks -->
 
             <!-- Javascript Frameworks -->
-            <div class="row">
+            <div class="row" id="JSFrameworks">
                 <div class="col-lg-12">
                     <h4>Javascript Frameworks</h4>
                 </div>
@@ -164,8 +180,39 @@
             <hr />
             <!-- End Javascript Frameworks -->
 
-            <!-- Front-End Tools -->
+            <!-- Javascript UI Frameworks -->
+            <div class="row" id="JSUIFrameworks">
+                <div class="col-lg-12">
+                    <h4>Javascript UI Frameworks</h4>
+                </div>
+            </div>
+
             <div class="row">
+                <div class="col-lg-12">
+                    <h5>Chocolatechip UI - <a href="http://chocolatechip-ui.com/" target="_blank">Website</a></h5>
+                    <p>Native Look For Web Apps. Powerful, Simple, Clean</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5>Onsen UI - <a href="http://s.onsen.io/" target="_blank">Website</a></h5>
+                    <p>The Answer to PhoneGap UI Development. A Custom Elements-Based HTML5 UI Framework</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5>Onsen UI - <a href="http://www.telerik.com/ios-ui" target="_blank">Website</a></h5>
+                    <p>Native and customizable UI controls for building iOS apps</p>
+                </div>
+            </div>
+
+            <hr />
+            <!-- Javascript UI Frameworks -->
+
+            <!-- Front-End Tools -->
+            <div class="row" id="AnotherFrontendTools">
                 <div class="col-lg-12">
                     <h4>Another Front-End Tools</h4>
                 </div>
@@ -220,7 +267,7 @@
 
             <!-- Node.js -->
             <!-- Node.js Micro Frameworks -->
-            <div class="row">
+            <div class="row" id="NodejsMicroFrameworks">
                 <div class="col-lg-12">
                     <h4>Node.js - Micro Frameworks</h4>
                 </div>
@@ -246,7 +293,7 @@
 
             <!-- PHP -->
             <!-- PHP CMS -->
-            <div class="row">
+            <div class="row" id="PHPCMS">
                 <div class="col-lg-12">
                     <h4>PHP - CMS</h4>
                 </div>
@@ -277,7 +324,7 @@
             <!-- End PHP CMS -->
 
             <!-- PHP Frameworks -->
-            <div class="row">
+            <div class="row" id="PHPFrameworks">
                 <div class="col-lg-12">
                     <h4>PHP - Frameworks</h4>
                 </div>
@@ -317,7 +364,7 @@
             <!-- End PHP Frameworks -->
 
             <!-- PHP Micro Frameworks -->
-            <div class="row">
+            <div class="row" id="PHPMicroFrameworks">
                 <div class="col-lg-12">
                     <h4>PHP - Micro Frameworks</h4>
                 </div>
@@ -336,7 +383,7 @@
 
             <!-- Python -->
             <!-- Python Frameworks -->
-            <div class="row">
+            <div class="row" id="PythonFrameworks">
                 <div class="col-lg-12">
                     <h4>Python - Frameworks</h4>
                 </div>
@@ -360,7 +407,7 @@
             <!-- End Python Frameworks -->
 
             <!-- Python Micro Frameworks -->
-            <div class="row">
+            <div class="row" id="PythonMicroFrameworks">
                 <div class="col-lg-12">
                     <h4>Python - Micro Frameworks</h4>
                 </div>
@@ -386,7 +433,7 @@
 
             <!-- Ruby -->
             <!-- Ruby Frameworks -->
-            <div class="row">
+            <div class="row" id="RubyFrameworks">
                 <div class="col-lg-12">
                     <h4>Ruby - Frameworks</h4>
                 </div>
@@ -403,7 +450,7 @@
             <!-- End Ruby Frameworks -->
 
             <!-- Ruby Micro Frameworks -->
-            <div class="row">
+            <div class="row" id="RubyMicroFrameworks">
                 <div class="col-lg-12">
                     <h4>Ruby - Micro Frameworks</h4>
                 </div>
@@ -486,6 +533,7 @@
     <!-- Javascript -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/jquery.arbitrary-anchor.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script>
