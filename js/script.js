@@ -14,8 +14,14 @@ function loadExternalTemplate(files, dom) {
         // Load Javascript Frameworks
         loadExternalTemplate('templates/frontend/js/frameworks.html', '#JSFrameworksContent');
 
+        // Load Javascript Libraries
+        loadExternalTemplate('templates/frontend/js/libraries.html', '#JSLibrariesContent');
+
         // Load Javascript UI Frameworks
         loadExternalTemplate('templates/frontend/js/ui_frameworks.html', '#JSUIFrameworksContent');
+
+    // Load Testing Frameworks
+    loadExternalTemplate('templates/frontend/testing.html', '#TestingFrameworksContent');
 
     // Load Another Front-End Tools
     loadExternalTemplate('templates/frontend/another.html', '#AnotherFrontendToolsContent');
