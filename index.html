@@ -86,8 +86,15 @@
                               <li><a href="#Wordpress" >Wordpress</a></li>
                           </ul>
                       </li>
-                      <li><a href="#iOS" >iOS</a></li>
-                      <li><a href="#Android" >Android</a></li>
+                      <li>
+                          <a href="#iOS" >iOS</a>
+                      </li>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Android <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="#AndroidLibraries" >Android - Libraries</a></li>
+                          </ul>
+                      </li>
                       <li><a href="#WP" >Windows Phone</a></li>
                     </ul>
                 </div>
@@ -115,8 +122,24 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h5><span class="label label-danger">New</span> Spark Java - <a href="http://sparkjava.com/" target="_blank">Website</a></h5>
-                    <p>A tiny Sinatra inspired framework for creating web applications in Java 8 with minimal effort.</p>
+                    <h5><span class="label label-danger">New</span> Picasso - <a href="http://square.github.io/picasso/" target="_blank">Website</a></h5>
+                    <p>A powerful image downloading and caching library for Android.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5><span class="label label-danger">New</span> Rebound - <a href="http://facebook.github.io/rebound/" target="_blank">Website</a></h5>
+                    <p>Rebound is a java library that models spring dynamics. Rebound spring models can be used to create animations that feel natural by introducing real world physics to your application.
+                        Rebound is not a general purpose physics library; however, spring dynamics can be used to drive a wide variety of animations. The simplicity of Rebound makes it easy to integrate and use as a building block for creating more complex components like pagers, toggles, and scrollers.
+                        Rebound uses the same spring constants as Origami making it easy to convert Origami interaction mockups directly into your Android application.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5><span class="label label-danger">New</span> Test Fairy - <a href="http://www.testfairy.com/" target="_blank">Website</a></h5>
+                    <p>Android Beta Testing Has Never Been Easier.</p>
                 </div>
             </div>
 
@@ -410,7 +433,13 @@
                 </div>
             </div>
 
-            <div id="AndroidContent"></div>
+            <div class="row" id="AndroidLibraries">
+                <div class="col-lg-12">
+                    <h4>Android - Libraries</h4>
+                </div>
+            </div>
+
+            <div id="AndroidLibrariesContent"></div>
 
             <hr />
             <!-- End Android -->

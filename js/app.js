@@ -29,7 +29,7 @@
             'templates/backend/ruby/micro_frameworks.html',
             'templates/backend/wordpress.html',
             'templates/ios.html',
-            'templates/android.html',
+            'templates/android/libraries.html',
             'templates/windows_phone.html'
         ],
         templateElement: [
@@ -54,7 +54,7 @@
             '#RubyMicroFrameworksContent',
             '#WordPressContent',
             '#iOSContent',
-            '#AndroidContent',
+            '#AndroidLibrariesContent',
             '#WPContent'
         ],
 
