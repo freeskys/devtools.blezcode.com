@@ -83,8 +83,11 @@
                               <li><a href="#Wordpress" >Wordpress</a></li>
                           </ul>
                       </li>
-                      <li>
-                          <a href="#iOS" >iOS</a>
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">iOS <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                              <li><a href="#iOSNetworking" >iOS - Networking</a></li>
+                          </ul>
                       </li>
                       <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Android <b class="caret"></b></a>
@@ -119,29 +122,24 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h5><span class="label label-danger">New</span> Fingerprint.js - <a href="http://valve.github.io/fingerprintjs/" target="_blank">Website</a></h5>
-                    <p>Fast browser fingerprint library. Written in pure JavaScript, no dependencies. By default uses Murmur hashing and returns a 32bit integer number. Hashing function can be easily replaced. Feather weight: only 843 bytes when gzipped.</p>
+                    <h5><span class="label label-danger">New</span> Reachability - <a href="https://github.com/tonymillion/Reachability" target="_blank">Website</a></h5>
+                    <p>ARC and GCD Compatible Reachability Class for iOS and MacOS. Drop in replacement for Apple Reachability.</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <h5><span class="label label-danger">New</span> Mantle - <a href="https://github.com/Mantle/Mantle" target="_blank">Website</a></h5>
+                    <p>Mantle makes it easy to write a simple model layer for your Cocoa or Cocoa Touch application.</p>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-lg-12">
-                    <h5><span class="label label-danger">New</span> ES5-Shim - <a href="https://github.com/es-shims/es5-shim" target="_blank">Website</a></h5>
-                    <p>ECMAScript 5 compatibility shims for legacy JavaScript engines.</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h5><span class="label label-danger">New</span> Converse.js - <a href="https://conversejs.org/" target="_blank">Website</a></h5>
-                    <p>A free and open-source XMPP chat client for your website.</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <h5><span class="label label-danger">New</span> C3.js - <a href="http://c3js.org/" target="_blank">Website</a></h5>
-                    <p>D3-based reusable chart library.</p>
+                    <h5><span class="label label-danger">New</span> AFNetworking - <a href="http://afnetworking.com/" target="_blank">Website</a></h5>
+                    <p>AFNetworking is a delightful networking library for iOS and Mac OS X. It's built on top of the Foundation URL Loading System, extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.
+                        Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to AFNetworking every day. AFNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.</p>
                 </div>
             </div>
 
@@ -423,7 +421,13 @@
                 </div>
             </div>
 
-            <div id="iOSContent"></div>
+            <div class="row" id="iOSNetworking">
+                <div class="col-lg-12">
+                    <h4>iOS - Networking</h4>
+                </div>
+            </div>
+
+            <div id="iOSNetworkingContent"></div>
 
             <hr />
             <!-- End iOS -->

@@ -28,7 +28,7 @@
             'templates/backend/ruby/frameworks.html',
             'templates/backend/ruby/micro_frameworks.html',
             'templates/backend/wordpress.html',
-            'templates/ios.html',
+            'templates/ios/networking.html',
             'templates/android/libraries.html',
             'templates/windows_phone.html'
         ],
@@ -53,7 +53,7 @@
             '#RubyFrameworksContent',
             '#RubyMicroFrameworksContent',
             '#WordPressContent',
-            '#iOSContent',
+            '#iOSNetworkingContent',
             '#AndroidLibrariesContent',
             '#WPContent'
         ],
