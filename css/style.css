@@ -1,3 +1,13 @@
 body {
     padding-top: 70px;
 }
+
+p {
+    line-height: 2em;
+}
+
+.jumbotron {
+    background: url("../images/bg-pattern.jpg");
+    color: #ffffff;
+    margin-top: -10px;
+}

@@ -7,6 +7,18 @@
     var ItemView = Backbone.View.extend({
         el: $('body'),
 
+        //source: '<div class="col-lg-4">'+
+        //        '<div class="panel panel-danger">'+
+        //        '<div class="panel-heading">'+
+        //        '<h2 class="panel-title text-center">{{title}}</h2>'+
+        //        '</div>'+
+        //        '<div class="panel-body">'+
+        //        '<p class="text-center">{{Description}}</p>'+
+        //        '<p><a class="btn btn-primary btn-block" href="{{website}}" target="_blank">Visit Website</a></p>'+
+        //        '</div>'+
+        //        '</div>'+
+        //        '</div>',
+
         templateLocation: [
             'templates/frontend/css/frameworks.html',
             'templates/frontend/js/frameworks.html',
@@ -30,7 +42,8 @@
             'templates/backend/wordpress.html',
             'templates/ios/networking.html',
             'templates/android/libraries.html',
-            'templates/windows_phone.html'
+            'templates/windows_phone.html',
+            'templates/firefoxos/libraries.html'
         ],
         templateElement: [
             '#CSSFrameworksContent',
@@ -55,7 +68,8 @@
             '#WordPressContent',
             '#iOSNetworkingContent',
             '#AndroidLibrariesContent',
-            '#WPContent'
+            '#WPContent',
+            '#FirefoxOSLibrariesContent'
         ],
 
         initialize: function() {
