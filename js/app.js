@@ -7,7 +7,7 @@
     var ItemView = Backbone.View.extend({
         el: $('body'),
 
-        //source: '<div class="col-lg-4">'+
+        //source: '<div class="col-lg-4 col-md-4">'+
         //        '<div class="panel panel-danger">'+
         //        '<div class="panel-heading">'+
         //        '<h2 class="panel-title text-center">{{title}}</h2>'+
