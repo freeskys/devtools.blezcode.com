@@ -44,6 +44,7 @@
             'templates/backend/ruby/frameworks.html',
             'templates/backend/ruby/micro_frameworks.html',
 
+            'templates/web/cloud.html',
             'templates/web/cloud_ide.html',
 
             'templates/backend/wordpress.html',
@@ -82,6 +83,7 @@
             '#RubyFrameworksContent',
             '#RubyMicroFrameworksContent',
 
+            '#CloudContent',
             '#CloudIDEContent',
 
             '#WordPressContent',
