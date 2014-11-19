@@ -21,6 +21,7 @@
 
         templateLocation: [
             'templates/frontend/css/frameworks.html',
+            'templates/frontend/css/libraries.html',
 
             'templates/frontend/js/design.html',
             'templates/frontend/js/frameworks.html',
@@ -60,6 +61,7 @@
         ],
         templateElement: [
             '#CSSFrameworksContent',
+            '#CSSLibrariesContent',
 
             '#JSDesignContent',
             '#JSFrameworksContent',
