@@ -43,6 +43,7 @@
             'templates/backend/python/frameworks.html',
             'templates/backend/python/micro_frameworks.html',
             'templates/backend/ruby/frameworks.html',
+            'templates/backend/ruby/libraries.html',
             'templates/backend/ruby/micro_frameworks.html',
 
             'templates/web/cloud.html',
@@ -83,6 +84,7 @@
             '#PythonFrameworksContent',
             '#PythonMicroFrameworksContent',
             '#RubyFrameworksContent',
+            '#RubyLibrariesContent',
             '#RubyMicroFrameworksContent',
 
             '#CloudContent',
